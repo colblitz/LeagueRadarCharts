@@ -1,18 +1,18 @@
 {
   "name": "LeagueRadarCharts",
-  "description": "Stuff.",
-
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/colblitz/LeagueRadarCharts.git"
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
   },
-
-  "engines": {
-    "node": ">= 0.10.30",
-    "npm": ">= 1.0.0"
-  },
-
   "dependencies": {
-    "express": ">= 4.0.0"
+    "body-parser": "~1.12.0",
+    "cookie-parser": "~1.3.4",
+    "debug": "~2.1.1",
+    "ejs": "~2.3.1",
+    "express": "~4.12.2",
+    "less-middleware": "1.0.x",
+    "morgan": "~1.5.1",
+    "serve-favicon": "~2.2.0"
   }
 }
