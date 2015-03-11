@@ -1,2 +1,2 @@
 # LeagueRadarCharts
-blah
+npm install
